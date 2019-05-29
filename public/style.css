@@ -1,0 +1,77 @@
+header {
+  background-color: darkblue;
+  color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  background-color: slategrey;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/hogwarts_background.jpg");
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+table {
+  text-align: center;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+td {
+  padding: 1vw 2vw;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+th {
+  padding: 1vw 2vw;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100vw;
+  align-items: center;
+}
+
+.container div {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  padding: 1vw 2vw;
+}
